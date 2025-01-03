@@ -16,7 +16,7 @@
         compatible = "zmk,combos";
         combo_esc {
             timeout-ms = <50>;
-            key-positions = <33 34>;
+            key-positions = <39 40>;
             bindings = <&kp TAB>;
         };
     };
@@ -25,27 +25,27 @@
 
         default_layer {
             bindings = <
-&kp Q  &kp W  &kp F     &kp P  &kp B      &kp J      &kp L  &kp U      &kp Y    &kp ESCAPE      
-&kp A  &kp R  &kp S     &kp T  &kp G      &kp M      &kp N  &kp E      &kp I    &kp O           
-&kp X  &kp C  &kp D     &kp V  &kp Z      &kp K      &kp N  &kp COMMA  &kp DOT  &kp LEFT_CONTROL
+&trans &kp Q  &kp W  &kp F     &kp P  &kp B      &kp J      &kp L  &kp U      &kp Y    &kp ESCAPE       &trans 
+&trans &kp A  &kp R  &kp S     &kp T  &kp G      &kp M      &kp N  &kp E      &kp I    &kp O            &trans 
+&trans &kp X  &kp C  &kp D     &kp V  &kp Z      &kp K      &kp N  &kp COMMA  &kp DOT  &kp LEFT_CONTROL &trans 
                       &kp LGUI  &mo 1  &mt LSHIFT RET    &kp SPACE  &mo 2  &kp RALT
             >;
         };
 
         lower_layer {
             bindings = <
-&kp N1              &kp N2              &kp N3            &kp N4               &kp N5       &kp N6   &kp N7          &kp N8          &kp N9        &kp N0         
-&kp LC(LEFT_ARROW)  &kp LC(DOWN_ARROW)  &kp LC(UP_ARROW)  &kp LC(RIGHT_ARROW)  &trans       &trans   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW
-&trans              &trans              &trans            &trans               &trans       &trans   &trans          &trans          &trans        &trans         
+&trans &kp N1              &kp N2              &kp N3            &kp N4               &kp N5       &kp N6   &kp N7          &kp N8          &kp N9        &kp N0          &trans 
+&trans &kp LC(LEFT_ARROW)  &kp LC(DOWN_ARROW)  &kp LC(UP_ARROW)  &kp LC(RIGHT_ARROW)  &trans       &trans   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW &trans 
+&trans &trans              &trans              &trans            &trans               &trans       &trans   &trans          &trans          &trans        &trans          &trans 
                                                 &kp LGUI          &trans               &kp SPACE    &kp RET  &trans          &kp RALT
             >;
         };
 
         raise_layer {
             bindings = <
-&kp EXCL       &kp AT            &kp HASH        &kp DLLR              &kp PRCNT           &kp CARET      &kp AMPS               &kp KP_MULTIPLY  &kp LPAR           &kp RPAR        
-&kp LESS_THAN  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp SINGLE_QUOTE    &kp SEMICOLON  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp GREATER_THAN
-&kp GRAVE      &trans            &trans          &trans                &trans              &trans         &kp PLUS               &kp MINUS        &kp SLASH          &kp PIPE        
+&trans  &kp EXCL       &kp AT            &kp HASH        &kp DLLR              &kp PRCNT           &kp CARET      &kp AMPS               &kp KP_MULTIPLY  &kp LPAR           &kp RPAR         &trans 
+&trans  &kp LESS_THAN  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp SINGLE_QUOTE    &kp SEMICOLON  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp GREATER_THAN &trans 
+&trans  &kp GRAVE      &trans            &trans          &trans                &trans              &trans         &kp PLUS               &kp MINUS        &kp SLASH          &kp PIPE         &trans 
                                          &kp LGUI        &trans                &kp SPACE           &kp RET        &trans                 &kp RALT
             >;
         };
