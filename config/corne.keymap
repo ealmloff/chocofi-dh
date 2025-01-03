@@ -28,7 +28,7 @@
 &kp Q  &kp W  &kp F     &kp P  &kp B      &kp J      &kp L  &kp U      &kp Y    &kp ESCAPE      
 &kp A  &kp R  &kp S     &kp T  &kp G      &kp M      &kp N  &kp E      &kp I    &kp O           
 &kp X  &kp C  &kp D     &kp V  &kp Z      &kp K      &kp N  &kp COMMA  &kp DOT  &kp LEFT_CONTROL
-                      &kp LGUI  &mo 1  &mt SHIFT RET    &kp SPACE  &mo 2  &kp RALT
+                      &kp LGUI  &mo 1  &mt LSHIFT RET    &kp SPACE  &mo 2  &kp RALT
             >;
         };
 
