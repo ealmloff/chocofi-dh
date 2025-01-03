@@ -24,7 +24,7 @@
             bindings = <
 &none &kp Q         &kp W     &kp F          &kp P      &kp B      &kp J      &kp L      &kp U      &kp Y      &kp ESCAPE              &none 
 &none &kp A         &kp R     &lt 2 S        &lt 1 T    &kp G      &kp M      &kp N      &kp E      &kp I      &kp O                   &none 
-&none &kp X         &kp C     &kp D          &kp V      &kp Z      &kp K      &kp H      &kp COMMA  &kp DOT    &kp LEFT_CONTROL        &none 
+&none &kp Z         &kp X     &kp C          &kp D      &kp V      &kp K      &kp H      &kp COMMA  &kp DOT    &kp LEFT_CONTROL        &none 
                       &mt LGUI RET &lt 3 TAB &kp BACKSPACE    &kp SPACE  &mt LSHIFT ENTER  &kp RALT
             >;
         };
